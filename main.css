@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+body #gameContainer {
+  overflow: hidden;
+  height: 500px;
+  width: 1000px;
+  margin: 10vh auto;
+  border: orange 1px solid;
+}
+body #gameContainer .movingBackground {
+  background: url("/images/sliding-background-template2fixed.png") repeat-x;
+  height: 500px;
+  width: 5076px;
+  animation: slide 60s linear infinite;
+  z-index: -1;
+  position: relative;
+}
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+body #gameContainer #player {
+  height: 100px;
+  width: 100px;
+  background-image: url("/images/spoopy.gif");
+  background-size: 100px 100px;
+  margin: 0;
+  position: relative;
+  top: -230px;
+  left: 0px;
+}
+body #gameContainer .obstacle {
+  height: 70px;
+  width: 50px;
+  background: red;
+  position: relative;
+  top: -280px;
+  left: 700px;
+}
