@@ -7,16 +7,35 @@
     
 </head>
 <body>
-<section id="gameContainer">
 
- <div class="movingBackground"></div>
 
- <div id="player"></div>
+    <section id="gameContainer">
 
- <div class="obstacle"></div>
+        <div class="movingBackground"></div>
 
+        <div id="player"></div>
+
+        <div id="obstacle"></div>
+        <div id="obstacleTwo"></div>
+        <div id="obstacleThree"></div>
 
     </section>
+    <div id="startScreen">
+        <p>use w a s d to move </p>
+        <p>Dodge the incoming fireballs </p>
+        <div>
+            <button onclick={startGame()}>Click to start!</button>
+        </div>
+    </div>
+    <div id="gameOver">
+        <p>You died!</p>
+        <div>
+            <button onclick={window.location.reload();}>Click here to play again</button>
+        </div>
+    </div>
+    <audio  id="myAudio" autoplay loop>
+        <source src="./audio/earthbound_78_threed_zombie_central_-7058753204833187543.mp3">
+  </audio>
 </body>
 <script src="/main.js"></script>
 </html>

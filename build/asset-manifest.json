@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6a913530.chunk.css",
+    "main.js": "/static/js/main.b2b028d3.chunk.js",
+    "main.js.map": "/static/js/main.b2b028d3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c53d43fe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c53d43fe.js.map",
+    "static/js/2.46512bae.chunk.js": "/static/js/2.46512bae.chunk.js",
+    "static/js/2.46512bae.chunk.js.map": "/static/js/2.46512bae.chunk.js.map",
+    "static/js/3.2e1a1a18.chunk.js": "/static/js/3.2e1a1a18.chunk.js",
+    "static/js/3.2e1a1a18.chunk.js.map": "/static/js/3.2e1a1a18.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6a913530.chunk.css.map": "/static/css/main.6a913530.chunk.css.map",
+    "static/js/2.46512bae.chunk.js.LICENSE.txt": "/static/js/2.46512bae.chunk.js.LICENSE.txt",
+    "static/media/icons8-css3-480.5721a392.png": "/static/media/icons8-css3-480.5721a392.png",
+    "static/media/icons8-github-480.7861c0ce.png": "/static/media/icons8-github-480.7861c0ce.png",
+    "static/media/icons8-nodejs-480.894283d2.png": "/static/media/icons8-nodejs-480.894283d2.png",
+    "static/media/icons8-react-native-480.9497ae27.png": "/static/media/icons8-react-native-480.9497ae27.png",
+    "static/media/sass-1.8aa78a83.svg": "/static/media/sass-1.8aa78a83.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c53d43fe.js",
+    "static/js/2.46512bae.chunk.js",
+    "static/css/main.6a913530.chunk.css",
+    "static/js/main.b2b028d3.chunk.js"
+  ]
+}
