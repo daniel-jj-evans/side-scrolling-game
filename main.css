@@ -63,7 +63,7 @@ body #gameContainer {
   right: 0;
 }
 body #gameContainer .movingBackground {
-  background: url("/images/sliding-background-template2fixed.png") repeat-x;
+  background: url("./images/sliding-background-template2fixed.png") repeat-x;
   height: 500px;
   width: 5076px;
   animation: slide 60s linear infinite;
@@ -81,7 +81,7 @@ body #gameContainer .movingBackground {
 body #gameContainer #player {
   height: 100px;
   width: 100px;
-  background-image: url("/images/spoopy.gif");
+  background-image: url("./images/spoopy.gif");
   background-size: 100px 100px;
   margin: 0;
   position: relative;
@@ -114,14 +114,14 @@ body #gameContainer #obstacle {
   position: relative;
   top: -250px;
   left: 1000px;
-  background-image: url("/images/fireball.gif");
+  background-image: url("./images/fireball.gif");
   background-size: 70px 60px;
   transform: rotate(180deg);
 }
 body #gameContainer #obstacleTwo {
   height: 60px;
   width: 70px;
-  background-image: url("/images/fireball.gif");
+  background-image: url("./images/fireball.gif");
   background-size: 70px 60px;
   transform: rotate(180deg);
   margin-top: 10px;
@@ -131,7 +131,7 @@ body #gameContainer #obstacleTwo {
 body #gameContainer #obstacleThree {
   height: 60px;
   width: 70px;
-  background-image: url("/images/fireball.gif");
+  background-image: url("./images/fireball.gif");
   background-size: 70px 60px;
   transform: rotate(180deg);
   margin-top: 10px;
